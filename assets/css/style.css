@@ -433,7 +433,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero .hero-slider {
   z-index: 8;
-  height: 96vh;
+  height: 80vh;
+  max-height: 767px;
 }
 #hero .hero-slider::before {
   content: "";
@@ -447,7 +448,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 7;
 }
 #hero .hero-slider .swiper-slide {
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   transition-property: opacity;
